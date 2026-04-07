@@ -15,3 +15,23 @@ struct orang {
 int main() {
     // Deklarasi obyek dari struct orang
     orang mhs[3];
+    for (int i = 0; i <= 2; i++)
+    {
+    cout << "Nama Mahasiswa: ";
+    getline(cin, mhs[i].nama);
+
+    cout << "Alamat Desa: ";
+    getline(cin, mhs[i].alamat.desa);
+
+    cout << "Alamat Kota: ";
+    getline(cin, mhs[i].alamat.kota);
+
+    cout << "Umur: ";
+    cin.ignore();
+    }
+
+    for (int i = 0; i <= 2; i++)
+    {
+        
+    }
+    
