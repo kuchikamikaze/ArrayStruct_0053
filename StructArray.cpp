@@ -37,4 +37,5 @@ int main() {
     cout << "Kota   : " << mhs[i].alamat.kota << endl;
     cout << "Umur   : " << mhs[i].umur << endl;
     }
+}
     
